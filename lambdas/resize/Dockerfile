@@ -9,6 +9,4 @@ RUN uv sync
 
 COPY handler.py ./
 
-RUN uv install 
-
 CMD ["handler.resize_handler"]
